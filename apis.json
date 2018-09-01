@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Spotify",
+	"description": "This is a repository of spotify APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/spotify.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-31",
+	"url": "http://spotify.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Spotify",
+			"x-api-slug": "spotify",
+			"description": "Spotify is a digital music service that gives you access to millions of songs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg",
+			"humanURL": "http://www.spotify.com",
+			"baseURL": "https://api.spotify.com//v1",
+			"tags": "Spotify",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/spotify/master/_listings/spotify/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Spotify",
+	"include": [
+		{
+			"name": "Spotify",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/spotify/master/_listings/spotify/apis.yaml"
+		}
+	]
+}

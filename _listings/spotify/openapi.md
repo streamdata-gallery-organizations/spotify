@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Spotify
 x-complete: 1
@@ -866,4 +865,3 @@ paths:
       - User
       - Playlists
       - Tracks
----
